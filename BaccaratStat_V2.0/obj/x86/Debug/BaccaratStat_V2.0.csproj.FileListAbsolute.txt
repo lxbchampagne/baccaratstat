@@ -1,0 +1,15 @@
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\bin\Debug\BaccaratStat_V2.0.exe
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\bin\Debug\BaccaratStat_V2.0.pdb
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\MainWindow.baml
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\MainWindow.g.cs
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\App.g.cs
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\BaccaratStat_V2.0_MarkupCompile.cache
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\BaccaratStat_V2.0.g.resources
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\BaccaratStat_V2._0.Properties.Resources.resources
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\BaccaratStat_V2.0.csproj.GenerateResource.Cache
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\BaccaratStat_V2.0.exe
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\BaccaratStat_V2.0.pdb
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\bin\Debug\BaccaratStat_V2.0.exe.manifest
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\bin\Debug\BaccaratStat_V2.0.application
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\BaccaratStat_V2.0.exe.manifest
+G:\VS-Projects\BaccaratStat_V2.0\BaccaratStat_V2.0\obj\x86\Debug\BaccaratStat_V2.0.application

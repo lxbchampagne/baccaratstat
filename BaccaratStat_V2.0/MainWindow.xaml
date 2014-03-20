@@ -1,0 +1,125 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BaccaratStat_V2._0.GUI.Baccarat"
+	x:Name="Window"
+	Title="Baccarat"
+	Width="1366" Height="768">
+
+
+    <Grid x:Name="LayoutRoot">
+        <Image Margin="0,0,0,0" Source="Resources/Backgrounds/Background.jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="28,27,0,0" Name="cardImage_A" Source="Resources/Decks/Classic/DA.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="128,27,0,0" Name="cardImage_2" Source="Resources/Decks/Classic/D2.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="228,27,0,0" Name="cardImage_3" Source="Resources/Decks/Classic/D3.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="328,27,0,0" Name="cardImage_4" Source="Resources/Decks/Classic/D4.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="428,27,0,0" Name="cardImage_5" Source="Resources/Decks/Classic/D5.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="528,27,0,0" Name="cardImage_6" Source="Resources/Decks/Classic/D6.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="628,27,0,0" Name="cardImage_7" Source="Resources/Decks/Classic/D7.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="728,27,0,0" Name="cardImage_8" Source="Resources/Decks/Classic/D8.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="828,27,0,0" Name="cardImage_9" Source="Resources/Decks/Classic/D9.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="928,27,0,0" Name="cardImage_10" Source="Resources/Decks/Classic/D10.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="1028,27,0,0" Name="cardImage_J" Source="Resources/Decks/Classic/DJ.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="1128,27,0,0" Name="cardImage_Q" Source="Resources/Decks/Classic/DQ.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="1228,27,0,0" Name="cardImage_K" Source="Resources/Decks/Classic/DK.png" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="58,156,0,0" Name="textBlockLeft_A" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="158,156,0,0" Name="textBlockLeft_2" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="258,156,0,0" Name="textBlockLeft_3" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="358,156,0,0" Name="textBlockLeft_4" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="458,156,0,0" Name="textBlockLeft_5" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="558,156,0,0" Name="textBlockLeft_6" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="658,156,0,0" Name="textBlockLeft_7" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="758,156,0,0" Name="textBlockLeft_8" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="858,156,0,0" Name="textBlockLeft_9" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="958,156,0,0" Name="textBlockLeft_10" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="1058,156,0,0" Name="textBlockLeft_J" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="1158,156,0,0" Name="textBlockLeft_Q" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="1258,156,0,0" Name="textBlockLeft_K" Text="32" 
+                   VerticalAlignment="Top" Foreground="#FFFE2007" FontSize="24" FontFamily="MingLiU-ExtB" FontWeight="Bold" />
+
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="58,200,0,0" Name="textBlockChange_A" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="158,200,0,0" Name="textBlockChange_2" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="258,200,0,0" Name="textBlockChange_3" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="358,200,0,0" Name="textBlockChange_4" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="458,200,0,0" Name="textBlockChange_5" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="558,200,0,0" Name="textBlockChange_6" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="658,200,0,0" Name="textBlockChange_7" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="758,200,0,0" Name="textBlockChange_8" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="858,200,0,0" Name="textBlockChange_9" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="958,200,0,0" Name="textBlockChange_10" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="1058,200,0,0" Name="textBlockChange_J" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="1158,200,0,0" Name="textBlockChange_Q" Text="" VerticalAlignment="Top" />
+        <TextBlock FontFamily="MingLiU-ExtB" FontSize="24" FontWeight="Bold" Foreground="#FFE5E815" Height="23" HorizontalAlignment="Left"
+                   Margin="1258,200,0,0" Name="textBlockChange_K" Text="" VerticalAlignment="Top" />
+        
+        
+        <Button Content="计算" Height="34" HorizontalAlignment="Left" Margin="628,254,0,0" Name="button_calc" 
+                VerticalAlignment="Top" Width="80" Click="button_calc_Click" FontSize="22" Foreground="#FFDB0E0E" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="828,254,0,0" Name="textBlock_CalTime" Text="" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="245,350,0,0" Name="textBlock_BankerWinSlip" Text=" 庄赢概率" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="32" HorizontalAlignment="Left" Margin="358,342,0,0" Name="textBlock_BankerWinRate" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="550,350,0,0" Name="textBlock_PlayerWinSlip" Text=" 闲赢概率" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="32" HorizontalAlignment="Left" Margin="658,341,0,0" Name="textBlock_PlayerWinRate" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="850,350,0,0" Name="textBlock_BothTieSlip" Text=" 和局概率" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="32" HorizontalAlignment="Left" Margin="942,341,0,0" Name="textBlock_BothTieRate" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+        
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="245,430,0,0" Name="textBlock_BankerPairWinSlip" Text=" 庄水前优势" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="31" HorizontalAlignment="Left" Margin="358,422,0,0" Name="textBlock_BankerAdvanBeforeWater" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="550,430,0,0" Name="textBlock_PlayerPairWinSlip" Text=" 庄水后优势" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="31" HorizontalAlignment="Left" Margin="658,422,0,0" Name="textBlock_BankerAdvanAfterWater" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="850,428,0,0" Name="textBlock_BankerPlayerRateSlip" Text=" 庄闲比例" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="31" HorizontalAlignment="Left" Margin="942,418,0,0" Name="textBlock_BankerPlayerRate" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+        
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="258,509,0,0" Name="textBlock_SinglePairRateSlip" Text="单对概率" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="31" HorizontalAlignment="Left" Margin="358,501,0,0" Name="textBlock_SinglePairRate" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="558,509,0,0" Name="textBlock_TwoPairRateSlip" Text=" 双对概率" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="31" HorizontalAlignment="Left" Margin="658,499,0,0" Name="textBlock_TwoPairRate" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="828,507,0,0" Name="textBlock_TotalPairRateSlip" Text="对子合计概率" 
+                   VerticalAlignment="Top" Foreground="#E6EBEAF1" FontSize="18" />
+        <TextBlock Height="31" HorizontalAlignment="Left" Margin="942,501,0,0" Name="textBlock_TotalPairRate" Text="00.0000%" 
+                   VerticalAlignment="Top" FontFamily="Microsoft JhengHei UI" FontSize="28" Foreground="#FFEB2400" />
+
+    </Grid>
+</Window>

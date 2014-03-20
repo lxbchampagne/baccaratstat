@@ -1,0 +1,7 @@
+G:\VS-Projects\BaccaratStat_V2.0\TestApp\bin\Debug\TestApp.exe
+G:\VS-Projects\BaccaratStat_V2.0\TestApp\bin\Debug\TestApp.pdb
+G:\VS-Projects\BaccaratStat_V2.0\TestApp\bin\Debug\BaccaratStat_V2.0.exe
+G:\VS-Projects\BaccaratStat_V2.0\TestApp\bin\Debug\BaccaratStat_V2.0.pdb
+G:\VS-Projects\BaccaratStat_V2.0\TestApp\obj\x86\Debug\TestApp.csprojResolveAssemblyReference.cache
+G:\VS-Projects\BaccaratStat_V2.0\TestApp\obj\x86\Debug\TestApp.exe
+G:\VS-Projects\BaccaratStat_V2.0\TestApp\obj\x86\Debug\TestApp.pdb

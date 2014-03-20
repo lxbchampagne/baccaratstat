@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaccaratStat_V2.0", "BaccaratStat_V2.0\BaccaratStat_V2.0.csproj", "{308926E5-3B58-4B75-B030-78037F0B6B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{D6DD5B6D-AFA4-48A8-A8F0-B710AC92A9F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{308926E5-3B58-4B75-B030-78037F0B6B76}.Debug|x86.ActiveCfg = Debug|x86
+		{308926E5-3B58-4B75-B030-78037F0B6B76}.Debug|x86.Build.0 = Debug|x86
+		{308926E5-3B58-4B75-B030-78037F0B6B76}.Release|x86.ActiveCfg = Release|x86
+		{308926E5-3B58-4B75-B030-78037F0B6B76}.Release|x86.Build.0 = Release|x86
+		{D6DD5B6D-AFA4-48A8-A8F0-B710AC92A9F3}.Debug|x86.ActiveCfg = Debug|x86
+		{D6DD5B6D-AFA4-48A8-A8F0-B710AC92A9F3}.Debug|x86.Build.0 = Debug|x86
+		{D6DD5B6D-AFA4-48A8-A8F0-B710AC92A9F3}.Release|x86.ActiveCfg = Release|x86
+		{D6DD5B6D-AFA4-48A8-A8F0-B710AC92A9F3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
